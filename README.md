@@ -33,12 +33,13 @@ The dataset used is the Amazon Alexa Reviews dataset, which contains:
 2. Text Processing: Applied CountVectorizer to convert text into numerical features, Combined text features with structured data
 3. Model Building: Split dataset into training and testing sets (80/20), Trained Random Forest Classifier, SVM and Logistic Regression
 4. Model Evaluation: Confusion Matrix, Accuracy Score, Classification Report, ROC, Feature Importance
-5. Use Advanced Model as LLM
+5. Use Advanced Model LLM BERT Model on small dataset and after text preprocessing find accuracy of it
 
 **Results**
 - SVM :94%
 - Logistic Regression: 93%
-- Random forest:93%
+- Random Forest:93%
+- LLM BERT Model:95%
 
 **Key Insights:**
 
@@ -64,7 +65,7 @@ The dataset used is the Amazon Alexa Reviews dataset, which contains:
    
 4. Run the notebook
 
-Open Jupyter Notebook or Google Colab and run Assignment10.ipynb
+Open Jupyter Notebook or Google Colab and run Assignment10.ipynb and Assignment10_LLM.ipynb
 
 **Future Improvements**
 
