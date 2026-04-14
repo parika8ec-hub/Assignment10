@@ -2,7 +2,7 @@
 
 **Project Overview**
 
-This project focuses on analyzing Amazon Alexa customer reviews and classifying them as positive or negative using Natural Language Processing (NLP) and Machine Learning techniques. The model is built using a Random Forest Classifier trained on vectorized text data and product features.
+This project focuses on analyzing Amazon Alexa customer reviews and classifying them as positive or negative using Natural Language Processing (NLP) and Machine Learning techniques. The model is built using different Classifiers trained on vectorized text data and product features.
 
 **Objective**
 - Analyze customer feedback data
@@ -12,7 +12,7 @@ This project focuses on analyzing Amazon Alexa customer reviews and classifying 
 
 **Dataset**
 
-The dataset used is the Amazon Alexa Reviews dataset, which contains:
+The dataset used is the Amazon Alexa Reviews dataset (3,150 records) , which contains columns as
 - verified_reviews : customer review text
 - date: review date
 - variation : product type
